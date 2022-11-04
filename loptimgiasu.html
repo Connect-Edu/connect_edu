@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lớp tìm gia sư</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo.jpg">
+    <link rel="stylesheet" href="mycss/mycss.css">
+    <script src="myjs/myjs.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body style="background-image: url('image/backgrounđk.jpg'); font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;" id="background">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-fixed-top bg-transparent container-xxl" style="font-size:  17px;" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="margin-right: 200px;">
+                <img src="image/logo.jpg" alt="Logo" style="width:60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown" style="padding-right: 35px;">
+                        <a class="nav-link dropdown-item" href="index.html" id="navbarDropdown">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-right: 35px; ">
+                        <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Gia Sư
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="formdangkylamgiasu.html">Đăng kí làm gia sư</a>
+                            <a class="dropdown-item" href="giasucanbiet.html">Gia sư cần biết</a>
+                            <a class="dropdown-item" href="giasucanbiet.html">Nội quy gia sư</a>
+                            <a class="dropdown-item" href="doingugiasu.html">Đội ngũ gia sư</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-right: 35px;">
+                        <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Phụ Huynh
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="formdangkydanhchophuhuynh.html">Đăng kí tìm gia sư</a>
+                            <a class="dropdown-item" href="thongtincanbiet.html">Thông tin cần biết</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-right: 35px;">
+                        <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Lớp Mới
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="loptimgiasu.html">Lớp tìm gia sư</a>
+                            <a class="dropdown-item" href="loptuyensinh.html">Lớp tuyển sinh</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-right: 35px;">
+                        <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tài Liệu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="tingiaoduc.html">Tin giáo dục</a>
+                            <a class="dropdown-item" href="dethi.html">Đề thi</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dangnhap.html">
+                            Đăng Nhập
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <center>
+            <div class="row" style="width: 90%;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div style=" width: 100%; background-image: url('image/bi-quyet-thue-gia-su-toan-gioi-cho-con-tai-ha-noi.jpg'); background-repeat: no-repeat; border-radius: 50px 50px 50px 50px; height: 250px; background-size: 100% 100%">
+                        <div style="width: 80%; height: 100%; color: white; padding-top: 100px;">
+                            <h1>Lớp tìm gia sư</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; text-align: left;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h4>LỚP TÌM GIA SƯ</h4>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; background-color: orangered; border-radius: 30px 30px 30px 30px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="row" style="width: 99%;">
+                        <h2 style="color: white;">TÌM LỚP</h2>
+                        <div class="col-lg-5 col-md-5 col-sm-12">
+                            <table style="width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-group">
+
+                                                <select name="" id="thongtin" style="height: 37px; border-radius: 5px 5px 5px 5px; border: 0px;">
+                                                        <option value="1">Lớp 1</option>
+                                                        <option value="2">Lớp 2</option>
+                                                        <option value="3">Lớp 3</option>
+                                                        <option value="4">Lớp 4</option>
+                                                        <option value="5">Lớp 5</option>
+                                                        <option value="6">Lớp 6</option>
+                                                        <option value="7">Lớp 7</option>
+                                                        <option value="8">Lớp 8</option>
+                                                        <option value="9">Lớp 9</option>
+                                                        <option value="10">Lớp 10</option>
+                                                        <option value="11">Lớp 11</option>
+                                                        <option value="12">Lớp 12</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                        <td style="width: 50%;">
+                                            <div class="form-group">
+
+                                                <select name="" id="thongtin" style="height: 37px; border-radius: 5px 5px 5px 5px; border: 0;">
+                                                    <option value="chonmon">Chọn môn</option>
+                                                    <option value="dia">Địa</option>
+                                                    <option value="hoa">Hoá</option>
+                                                    <option value="ly">Vật lý</option>
+                                                    <option value="sinh">Sinh</option>
+                                                    <option value="toan">Toán</option>
+                                                    <option value="su">Sử</option>
+                                                    <option value="van">Văn</option>
+                                                    <option value="tin">Tin</option>
+                                                    <option value="anh">Anh văn</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+
+                                                <select name="" id="thongtin" style="height: 37px; border-radius: 5px 5px 5px 5px; border: 0;">
+                                                    <option value="chonngay">Chọn ngày</option>
+                                                    <option value="t2">Thứ 2</option>
+                                                    <option value="t3">Thứ 3</option>
+                                                    <option value="t4">Thứ 4</option>
+                                                    <option value="t5">Thứ 5</option>
+                                                    <option value="t6">Thứ 6</option>
+                                                    <option value="t7">Thứ 7</option>
+                                                    <option value="chunhat">Chủ nhật</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-12">
+                            <table style="width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-group">
+
+                                                <select class="form-select form-select-sm mb-3" id="city" aria-label=".form-select-sm" style="height: 37px; border-radius: 5px 5px 5px 5px; border:0px;width: 100%;">
+                                                    <option value="" selected>Chọn tỉnh thành</option>           
+                                                </select>
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+
+                                                <select class="form-select form-select-sm mb-3" id="district" aria-label=".form-select-sm" style="height: 37px; border-radius: 5px 5px 5px 5px;border:0;width: 100%;">
+                                                    <option value="" selected>Chọn quận huyện</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+
+                                                <select class="form-select form-select-sm" id="ward" aria-label=".form-select-sm" style="height: 37px; border-radius: 5px 5px 5px 5px; border:0;width: 100%;">
+                                                    <option value="" selected>Chọn phường xã</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; height: 40px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; text-align: left;">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ3648</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Toán</li>
+                                <li>Lớp: 12</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 150000</li>
+                                <li>Thời gian: 1 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ4830</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Văn</li>
+                                <li>Lớp: 4</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 150000</li>
+                                <li>Thời gian: 3 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ9364</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Toán</li>
+                                <li>Lớp: 5</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 150000</li>
+                                <li>Thời gian: 2 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                Nhận lớp
+                            </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ5473</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Toán</li>
+                                <li>Lớp: 9</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 150000</li>
+                                <li>Thời gian: 2 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                Nhận lớp
+                            </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="width: 90%; height: 40px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                </div>
+            </div>
+            <div class="row" style="width: 90%; text-align: left;">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ3467</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Anh</li>
+                                <li>Lớp: 12</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 200000</li>
+                                <li>Thời gian: 3 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ6382</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Sinh</li>
+                                <li>Lớp: 12</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 150000</li>
+                                <li>Thời gian: 3 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ6219</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Văn</li>
+                                <li>Lớp: 5</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 150000</li>
+                                <li>Thời gian: 2 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                Nhận lớp
+                            </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ8251</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Hoá</li>
+                                <li>Lớp: 9</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 500000</li>
+                                <li>Thời gian: 2 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                Nhận lớp
+                            </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="width: 90%; height: 40px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                </div>
+            </div>
+            <div class="row" style="width: 90%; text-align: left;">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ6290</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Toán</li>
+                                <li>Lớp: 5</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 150000</li>
+                                <li>Thời gian: 1 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ6934</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Văn</li>
+                                <li>Lớp: 9</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 100000</li>
+                                <li>Thời gian: 3 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ9264</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Toán</li>
+                                <li>Lớp: 10</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương:300000</li>
+                                <li>Thời gian: 2 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                Nhận lớp
+                            </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ0236</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Toán</li>
+                                <li>Lớp: 12</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 500000</li>
+                                <li>Thời gian: 2 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                Nhận lớp
+                            </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="width: 90%; height: 40px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                </div>
+            </div>
+            <div class="row" style="width: 90%; text-align: left;">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ9825</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Toán</li>
+                                <li>Lớp: 1</li>
+                                <li>Địa chỉ:Online.</li>
+                                <li>Mức lương:150000</li>
+                                <li>Thời gian: 1 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ9456</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Văn</li>
+                                <li>Lớp: 6</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 150000</li>
+                                <li>Thời gian: 3 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ0364</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Toán</li>
+                                <li>Lớp: 11</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 500000</li>
+                                <li>Thời gian: 2 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                Nhận lớp
+                            </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <h5>MÃ SỐ:
+                            <font style="color: blue;">KQ0267</font>
+                        </h5>
+                        <div class="card-body" style="margin-left: -20px;">
+                            <ul>
+                                <li>Môn: Toán</li>
+                                <li>Lớp: 9</li>
+                                <li>Địa chỉ: Online.</li>
+                                <li>Mức lương: 500000</li>
+                                <li>Thời gian: 4 buổi/tuần</li>
+                                <li>Yêu cầu khác:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                Nhận lớp
+                            </button>
+                        </center>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="demo" class="collapse">
+                <div class="row" style="width: 90%; height: 40px;">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                    </div>
+                </div>
+                <div class="row" style="width: 90%; text-align: left;">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ7344</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Văn</li>
+                                    <li>Lớp: 5</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 200000</li>
+                                    <li>Thời gian: 2 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                        Nhận lớp
+                                    </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ2374</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Anh</li>
+                                    <li>Lớp: 9</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 400000</li>
+                                    <li>Thời gian: 3 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                        Nhận lớp
+                                    </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ6394</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Toán</li>
+                                    <li>Lớp: 12</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 600000</li>
+                                    <li>Thời gian: 2 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ6345</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Sinh</li>
+                                    <li>Lớp: 12</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 500000</li>
+                                    <li>Thời gian: 2 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="width: 90%; height: 40px;">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                    </div>
+                </div>
+                <div class="row" style="width: 90%; text-align: left;">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ6290</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Tin</li>
+                                    <li>Lớp: 10</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 150000</li>
+                                    <li>Thời gian: 1 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                        Nhận lớp
+                                    </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ6934</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Hoá</li>
+                                    <li>Lớp: 12</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 500000</li>
+                                    <li>Thời gian: 3 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                        Nhận lớp
+                                    </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ7342</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Địa</li>
+                                    <li>Lớp: 10</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 400000</li>
+                                    <li>Thời gian: 2 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ6324</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Sử</li>
+                                    <li>Lớp: 12</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 500000</li>
+                                    <li>Thời gian: 2 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="width: 90%; height: 40px;">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                    </div>
+                </div>
+                <div class="row" style="width: 90%; text-align: left;">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ3483</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Toán</li>
+                                    <li>Lớp: 5</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 500000</li>
+                                    <li>Thời gian: 1 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                        Nhận lớp
+                                    </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ7345</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Văn</li>
+                                    <li>Lớp: 9</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 300000</li>
+                                    <li>Thời gian: 3 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                        Nhận lớp
+                                    </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ6734</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Sử</li>
+                                    <li>Lớp: 10</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 300000</li>
+                                    <li>Thời gian: 2 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ6345</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Sinh</li>
+                                    <li>Lớp: 10</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 500000</li>
+                                    <li>Thời gian: 2 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="width: 90%; height: 40px;">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                    </div>
+                </div>
+                <div class="row" style="width: 90%; text-align: left;">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ7384</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Địa</li>
+                                    <li>Lớp: 5</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 150000</li>
+                                    <li>Thời gian: 1 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                        Nhận lớp
+                                    </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ7354</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Sử</li>
+                                    <li>Lớp: 9</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 100000</li>
+                                    <li>Thời gian: 3 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                        Nhận lớp
+                                    </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">K6345</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Tin</li>
+                                    <li>Lớp: 10</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 300000</li>
+                                    <li>Thời gian: 2 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <h5>MÃ SỐ:
+                                <font style="color: blue;">KQ6345</font>
+                            </h5>
+                            <div class="card-body" style="margin-left: -20px;">
+                                <ul>
+                                    <li>Môn: Lý</li>
+                                    <li>Lớp: 12</li>
+                                    <li>Địa chỉ: Online.</li>
+                                    <li>Mức lương: 500000</li>
+                                    <li>Thời gian: 2 buổi/tuần</li>
+                                    <li>Yêu cầu khác:</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 100%;" id="btn">
+                                    Nhận lớp
+                                </button>
+                            </center>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Nhận lớp không thành công</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn cần đăng nhập vào tài khoản gia sư mới nhận được lớp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">Đồng ý</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn" data-toggle="collapse" data-target="#demo" style="margin-top: 30px; font-weight: bold; font-size: 25px;"><i class="bi bi-chevron-double-right"></i>Xem Thêm</button>
+        </center>
+    </div>
+    <footer class="bg-primary text-white text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-10 mb-0 mb-md-0">
+
+                    <img src="image/logo.jpg" alt="" style="height: 100px; width: 100px; border-radius: 20px 20px 20px 20px;">
+                    <p style="font-size: 20px; font-weight: bold;margin-left: -7px;">Connect-Edu</p>
+
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="text-align: left;margin-top: 30px;">
+                    <h5 class="text-uppercase"><i class="bi bi-geo-alt-fill"></i> Địa chỉ</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Số 1 Võ Văn Ngân, Linh Chiểu, TP Thủ Đức</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="text-align: left; margin-top: 30px;">
+                    <h5 class="text-uppercase mb-0"><i class="bi bi-envelope-fill"></i>Email</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">Connect.edu.vn@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0" style="text-align: left; margin-top: 30px;">
+                    <h5 class="text-uppercase mb-0"><i class="bi bi-telephone-fill"></i>Hotline</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">0367780761</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="#">Connect-Edu.com</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script>
+        var citis = document.getElementById("city");
+        var districts = document.getElementById("district");
+        var wards = document.getElementById("ward");
+        var Parameter = {
+            url: "https://raw.githubusercontent.com/kenzouno1/DiaGioiHanhChinhVN/master/data.json",
+            method: "GET",
+            responseType: "application/json",
+        };
+        var promise = axios(Parameter);
+        promise.then(function(result) {
+            renderCity(result.data);
+        });
+
+        function renderCity(data) {
+            for (const x of data) {
+                citis.options[citis.options.length] = new Option(x.Name, x.Id);
+            }
+            citis.onchange = function() {
+                district.length = 1;
+                ward.length = 1;
+                if (this.value != "") {
+                    const result = data.filter(n => n.Id === this.value);
+
+                    for (const k of result[0].Districts) {
+                        district.options[district.options.length] = new Option(k.Name, k.Id);
+                    }
+                }
+            };
+            district.onchange = function() {
+                ward.length = 1;
+                const dataCity = data.filter((n) => n.Id === citis.value);
+                if (this.value != "") {
+                    const dataWards = dataCity[0].Districts.filter(n => n.Id === this.value)[0].Wards;
+
+                    for (const w of dataWards) {
+                        wards.options[wards.options.length] = new Option(w.Name, w.Id);
+                    }
+                }
+            };
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,379 @@
+#navbarSupportedContent a {
+    font-weight: bold;
+}
+
+#navbarSupportedContent .nav-link {
+    color: white;
+}
+
+#navbarSupportedContent ul li a:hover {
+    color: dodgerblue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: rgb(0, 0, 0) !important;
+    opacity: 0.6;
+    transition: background-color 200ms linear;
+}
+
+#background {
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.file-upload {
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #000000;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.file-upload-btn:hover {
+    background: #003bb9;
+    color: rgb(255, 255, 255);
+    transition: all .2s ease;
+    cursor: pointer;
+    border-bottom: 4px solid #003bb9;
+}
+
+.file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.image-upload-wrap {
+    margin-top: 20px;
+    border: 4px dashed #000000;
+    position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+    background-color: rgb(100, 100, 100);
+    border: 4px dashed #ffffff;
+}
+
+.image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+}
+
+.drag-text {
+    text-align: center;
+}
+
+.drag-text h4 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 70px 0;
+}
+
+.file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #000000;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.remove-image:hover {
+    background: #003bb9;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+    border-bottom: 4px solid #003bb9;
+}
+
+.remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+.fontred {
+    color: red;
+}
+
+#thongtin {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px 0;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 10.06cm;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    color: darkgray;
+}
+
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    background-color: orange;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#btn:hover {
+    background-color: rgb(0, 21, 141);
+}
+
+#noiquy div:hover {
+    color: red;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip0025 {
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    background: #000000;
+    text-align: left;
+}
+
+figure.snip0025 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+figure.snip0025 img {
+    opacity: 1;
+    width: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+figure.snip0025>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+figure.snip0025>div::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+    background-image: linear-gradient(45deg, #000000 0%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.8));
+}
+
+figure.snip0025 h2 {
+    word-spacing: -0.1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    top: 0;
+    opacity: 0;
+    padding: 25px;
+    margin: 0;
+    position: absolute;
+    color: transparent;
+    text-shadow: 0 0 10px #ffffff;
+    text-align: right;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+figure.snip0025 h2 span {
+    font-weight: 800;
+}
+
+figure.snip0025 i {
+    display: inline-block;
+    font-size: 36px;
+    color: #ffffff;
+    padding: 6px 16px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: 0.05s linear;
+    transition: 0.05s linear;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+figure.snip0025 .curl {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(225deg, #ffffff, #f3f3f3 20%, #bbbbbb 38%, #aaaaaa 44%, #888888 50%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.3));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all .4s ease;
+}
+
+figure.snip0025 .curl:before,
+figure.snip0025 .curl:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 12%;
+    bottom: 6%;
+    width: 70%;
+    max-width: 300px;
+    max-height: 100px;
+    height: 55%;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.3);
+    transform: skew(-10deg) rotate(-6deg);
+}
+
+figure.snip0025 .curl:after {
+    left: auto;
+    right: 6%;
+    bottom: auto;
+    top: 14%;
+    transform: skew(-15deg) rotate(-84deg);
+}
+
+figure.snip0025 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    color: #ffffff;
+}
+
+figure.snip0025:hover>div h2,
+figure.snip0025.hover>div h2 {
+    opacity: 1;
+    text-shadow: 0 0 0px #ffffff;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+figure.snip0025:hover>div::before,
+figure.snip0025.hover>div::before {
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+figure.snip0025:hover i,
+figure.snip0025.hover i {
+    opacity: 0.7;
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+figure.snip0025:hover .curl,
+figure.snip0025.hover .curl {
+    width: 90px;
+    height: 90px;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}

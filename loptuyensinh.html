@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lớp tìm gia sư</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo.jpg">
+    <link rel="stylesheet" href="mycss/mycss.css">
+    <script src="myjs/myjs.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body style="background-image: url('image/backgrounđk.jpg'); font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;" id="background">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-fixed-top bg-transparent container-xxl" style="font-size:  17px;" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="margin-right: 200px;">
+                <img src="image/logo.jpg" alt="Logo" style="width:60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown" style="padding-right: 35px;">
+                        <a class="nav-link dropdown-item" href="index.html" id="navbarDropdown">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-right: 35px; ">
+                        <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Gia Sư
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="formdangkylamgiasu.html">Đăng kí làm gia sư</a>
+                            <a class="dropdown-item" href="giasucanbiet.html">Gia sư cần biết</a>
+                            <a class="dropdown-item" href="giasucanbiet.html">Nội quy gia sư</a>
+                            <a class="dropdown-item" href="doingugiasu.html">Đội ngũ gia sư</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-right: 35px;">
+                        <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Phụ Huynh
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="formdangkydanhchophuhuynh.html">Đăng kí tìm gia sư</a>
+                            <a class="dropdown-item" href="thongtincanbiet.html">Thông tin cần biết</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-right: 35px;">
+                        <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Lớp Mới
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="loptimgiasu.html">Lớp tìm gia sư</a>
+                            <a class="dropdown-item" href="loptuyensinh.html">Lớp tuyển sinh</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-right: 35px;">
+                        <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tài Liệu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="tingiaoduc.html">Tin giáo dục</a>
+                            <a class="dropdown-item" href="dethi.html">Đề thi</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dangnhap.html">
+                            Đăng Nhập
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <center>
+            <div class="row" style="width: 90%;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div style=" width: 100%; background-image: url('image/bi-quyet-thue-gia-su-toan-gioi-cho-con-tai-ha-noi.jpg'); background-repeat: no-repeat; border-radius: 50px 50px 50px 50px; height: 250px; background-size: 100% 100%">
+                        <div style="width: 80%; height: 100%; color: white; padding-top: 100px;">
+                            <h1>Lớp tuyển sinh</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; text-align: left;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h4>LỚP TUYỂN SINH</h4>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; background-color: orangered; border-radius: 30px 30px 30px 30px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="row" style="width: 99%;">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="form-group" style="text-align: left;">
+
+                                <select name="" id="thongtin" style="height: 37px; border-radius: 5px 5px 5px 5px; border: 0px;">
+                                    <option value="chonmon">Chọn môn</option>
+                                    <option value="dia">Địa</option>
+                                    <option value="hoa">Hoá</option>
+                                    <option value="ly">Vật lý</option>
+                                    <option value="sinh">Sinh</option>
+                                    <option value="toan">Toán</option>
+                                    <option value="su">Sử</option>
+                                    <option value="van">Văn</option>
+                                    <option value="tin">Tin</option>
+                                    <option value="anh">Anh văn</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="form-group" style="text-align: left;">
+
+                                <select name="" id="thongtin" style="height: 37px; border-radius: 5px 5px 5px 5px; border: 0px;">
+                                    <option value="1">Lớp 1</option>
+                                    <option value="2">Lớp 2</option>
+                                    <option value="3">Lớp 3</option>
+                                    <option value="4">Lớp 4</option>
+                                    <option value="5">Lớp 5</option>
+                                    <option value="6">Lớp 6</option>
+                                    <option value="7">Lớp 7</option>
+                                    <option value="8">Lớp 8</option>
+                                    <option value="9">Lớp 9</option>
+                                    <option value="10">Lớp 10</option>
+                                    <option value="11">Lớp 11</option>
+                                    <option value="12">Lớp 12</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; height: 40px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; text-align: left; font-size: 18px;">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div style="background-color: white; border-radius: 20px 20px 20px 20px; width: 99%;">
+                        <div class="row" style="width: 95%;height: 100%; margin-left: 15px;">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div style="width: 90%; height: 210px; background-image: url('image/hongdaojpg.jpg'); margin-top: 80px; margin-left: 5%;  border-radius: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                                </div>
+                                <center>
+                                    <h5 class="card-title">NGUYỄN HỒNG ĐÀO</h5>
+                                    <p class="card-text" style="color: rgb(10, 119, 243);">BỘ MÔN:VẬT LÍ</p>
+                                </center>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li style="padding-bottom: 20px;">Lớp:10</li>
+                                    <li style="padding-bottom: 20px;">Môn:Vật lí</li>
+                                    <li style="padding-bottom: 20px;">Sinh viên trường:ĐH Cần Thơ</li>
+                                    <li style="padding-bottom: 20px;">Hình thức học:Online</li>
+                                    <li style="padding-bottom: 20px;">Học phí:300000/Buổi</li>
+                                    <li style="padding-bottom: 20px;">Lịch học:21h các ngày trong tuần</li>
+                                    <li style="padding-bottom: 20px;">Lịch khai giảng:Đầu tháng 11</li>
+                                </ul>
+                                <center>
+                                    <a href="formdangkydanhchophuhuynh.html" class="btn btn-primary">Đăng kí học</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div style="background-color: white; border-radius: 20px 20px 20px 20px; width: 99%;">
+                        <div class="row" style="width: 95%;height: 100%; margin-left: 15px;">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div style="width: 90%; height: 210px; background-image: url('image/toan.jpg'); margin-top: 80px; margin-left: 5%;  border-radius: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                                </div>
+                                <center>
+                                    <h5 class="card-title">HUỲNH VĂN TOÀN</h5>
+                                    <p class="card-text" style="color: rgb(10, 119, 243);">BỘ MÔN:HOÁ</p>
+                                </center>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li style="padding-bottom: 20px;">Lớp: 12</li>
+                                    <li style="padding-bottom: 20px;">Môn: Hoá</li>
+                                    <li style="padding-bottom: 20px;">Sinh viên trường: Đại học Tôn Đức Thắng</li>
+                                    <li style="padding-bottom: 20px;">Hình thức học:Online</li>
+                                    <li style="padding-bottom: 20px;">Học phí: 300000/Buổi</li>
+                                    <li style="padding-bottom: 20px;">Lịch học: Sau 17h các ngày từ t2 đến chủ nhật</li>
+                                    <li style="padding-bottom: 20px;">Lịch khai giảng:Đầu tháng 11</li>
+                                </ul>
+                                <center>
+                                    <a href="formdangkydanhchophuhuynh.html" class="btn btn-primary">Đăng kí học</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; height: 40px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; text-align: left; font-size: 18px;">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div style="background-color: white; border-radius: 20px 20px 20px 20px; width: 99%;">
+                        <div class="row" style="width: 95%;height: 100%; margin-left: 15px;">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div style="width: 90%; height: 210px; background-image: url('image/thuong.jpg'); margin-top: 80px; margin-left: 5%;  border-radius: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                                </div>
+                                <center>
+                                    <h5 class="card-title">NGUYỄN HOÀI THƯƠNG</h5>
+                                    <p class="card-text" style="color: rgb(10, 119, 243);">BỘ MÔN:SINH HỌC</p>
+                                </center>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li style="padding-bottom: 20px;">Lớp:10</li>
+                                    <li style="padding-bottom: 20px;">Môn:Sinh học</li>
+                                    <li style="padding-bottom: 20px;">Sinh viên trường:ĐH Y Dược Cần Thơ</li>
+                                    <li style="padding-bottom: 20px;">Hình thức học:Online</li>
+                                    <li style="padding-bottom: 20px;">Học phí:300000/Buổi</li>
+                                    <li style="padding-bottom: 20px;">Lịch học:18h các ngày từ thứ 2 đến thứ 6 </li>
+                                    <li style="padding-bottom: 20px;">Lịch khai giảng:Đầu tháng 11</li>
+                                </ul>
+                                <center>
+                                    <a href="formdangkydanhchophuhuynh.html" class="btn btn-primary">Đăng kí học</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div style="background-color: white; border-radius: 20px 20px 20px 20px; width: 99%;">
+                        <div class="row" style="width: 95%;height: 100%; margin-left: 15px;">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div style="width: 90%; height: 210px; background-image: url('image/my.jpg'); margin-top: 80px; margin-left: 5%;  border-radius: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                                </div>
+                                <center>
+                                    <h5 class="card-title">NGUYỄN KHẢ MY</h5>
+                                    <p class="card-text" style="color: rgb(10, 119, 243);">BỘ MÔN:VĂN</p>
+                                </center>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li style="padding-bottom: 20px;">Lớp: 11</li>
+                                    <li style="padding-bottom: 20px;">Môn: VĂN</li>
+                                    <li style="padding-bottom: 20px;">Sinh viên trường: ĐH Tài Chính - Marketing</li>
+                                    <li style="padding-bottom: 20px;">Hình thức học: Online</li>
+                                    <li style="padding-bottom: 20px;">Học phí: 300000/Buổi</li>
+                                    <li style="padding-bottom: 20px;">Lịch học: Sau 17h các ngày từ t2 đến chủ nhật</li>
+                                    <li style="padding-bottom: 20px;">Lịch khai giảng: Đầu tháng 11</li>
+                                </ul>
+                                <center>
+                                    <a href="formdangkydanhchophuhuynh.html" class="btn btn-primary">Đăng kí học</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; height: 40px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; text-align: left; font-size: 18px;">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div style="background-color: white; border-radius: 20px 20px 20px 20px; width: 99%;">
+                        <div class="row" style="width: 95%;height: 100%; margin-left: 15px;">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div style="width: 90%; height: 210px; background-image: url('image/tamtri.jpg'); margin-top: 80px; margin-left: 5%;  border-radius: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                                </div>
+                                <center>
+                                    <h5 class="card-title">NGUYỄN HOÀI THƯƠNG</h5>
+                                    <p class="card-text" style="color: rgb(10, 119, 243);">BỘ MÔN:ANH VĂN</p>
+                                </center>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li style="padding-bottom: 20px;">Lớp:9</li>
+                                    <li style="padding-bottom: 20px;">Môn: Anh văn</li>
+                                    <li style="padding-bottom: 20px;">Sinh viên trường ĐH Sư phạm Kỹ thuật Tp HCM</li>
+                                    <li style="padding-bottom: 20px;">Hình thức học: Online</li>
+                                    <li style="padding-bottom: 20px;">Học phí: 300000/Buổi</li>
+                                    <li style="padding-bottom: 20px;">Lịch học: 20h thứ 2 và chủ nhật</li>
+                                    <li style="padding-bottom: 20px;">Lịch khai giảng: Đầu tháng 11</li>
+                                </ul>
+                                <center>
+                                    <a href="formdangkydanhchophuhuynh.html" class="btn btn-primary">Đăng kí học</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div style="background-color: white; border-radius: 20px 20px 20px 20px; width: 99%;">
+                        <div class="row" style="width: 95%;height: 100%; margin-left: 15px;">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div style="width: 90%; height: 210px; background-image: url('image/nguyennam.jpg'); margin-top: 80px; margin-left: 5%;  border-radius: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                                </div>
+                                <center>
+                                    <h5 class="card-title">NGUYỄN NHẬT NAM</h5>
+                                    <p class="card-text" style="color: rgb(10, 119, 243);">BỘ MÔN: ANH VĂN</p>
+                                </center>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li style="padding-bottom: 20px;">Lớp: 11</li>
+                                    <li style="padding-bottom: 20px;">Môn: Anh văn</li>
+                                    <li style="padding-bottom: 20px;">Sinh viên trường ĐH Sư phạm Kĩ Thuật TP HCM</li>
+                                    <li style="padding-bottom: 20px;">Hình thức học: Online</li>
+                                    <li style="padding-bottom: 20px;">Học phí: 300000/Buổi</li>
+                                    <li style="padding-bottom: 20px;">Lịch học: 21h chủ nhật và thứ 7</li>
+                                    <li style="padding-bottom: 20px;">Lịch khai giảng: Đầu tháng 11</li>
+                                </ul>
+                                <center>
+                                    <a href="formdangkydanhchophuhuynh.html" class="btn btn-primary">Đăng kí học</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; height: 40px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; text-align: left; font-size: 18px;">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div style="background-color: white; border-radius: 20px 20px 20px 20px; width: 99%;">
+                        <div class="row" style="width: 95%;height: 100%; margin-left: 15px;">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div style="width: 90%; height: 210px; background-image: url('image/nguyenhuy.jpg'); margin-top: 80px; margin-left: 5%;  border-radius: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                                </div>
+                                <center>
+                                    <h5 class="card-title">NGUYỄN VĂN HUY</h5>
+                                    <p class="card-text" style="color: rgb(10, 119, 243);">BỘ MÔN:TOÁN</p>
+                                </center>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <ul>
+                                    <li style="padding-bottom: 20px;">Lớp: 12</li>
+                                    <li style="padding-bottom: 20px;">Môn: Toán</li>
+                                    <li style="padding-bottom: 20px;">Sinh viên trường Đại Học Bách Khoa TP.HCM</li>
+                                    <li style="padding-bottom: 20px;">Hình thức học: Online</li>
+                                    <li style="padding-bottom: 20px;">Học phí: 300000/Buổi</li>
+                                    <li style="padding-bottom: 20px;">Lịch học: 13h thứ 2 và chủ nhật</li>
+                                    <li style="padding-bottom: 20px;">Lịch khai giảng: Đầu tháng 11</li>
+                                </ul>
+                                <center>
+                                    <a href="formdangkydanhchophuhuynh.html" class="btn btn-primary">Đăng kí học</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div>
+                        <div class="row" style="width: 95%;height: 100%; margin-left: 15px;">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="row" style="width: 90%; height: 40px;">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                </div>
+            </div>
+        </center>
+    </div>
+    <footer class="bg-primary text-white text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-10 mb-0 mb-md-0">
+
+                    <img src="image/logo.jpg" alt="" style="height: 100px; width: 100px; border-radius: 20px 20px 20px 20px;">
+                    <p style="font-size: 20px; font-weight: bold;margin-left: -7px;">Connect-Edu</p>
+
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="text-align: left;margin-top: 30px;">
+                    <h5 class="text-uppercase"><i class="bi bi-geo-alt-fill"></i> Địa chỉ</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Số 1 Võ Văn Ngân, Linh Chiểu, TP Thủ Đức</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="text-align: left; margin-top: 30px;">
+                    <h5 class="text-uppercase mb-0"><i class="bi bi-envelope-fill"></i>Email</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">Connect.edu.vn@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0" style="text-align: left; margin-top: 30px;">
+                    <h5 class="text-uppercase mb-0"><i class="bi bi-telephone-fill"></i>Hotline</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">0367780761</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="#">Connect-Edu.com</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</body>
+
+</html>
